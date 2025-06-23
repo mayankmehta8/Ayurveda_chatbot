@@ -1,8 +1,4 @@
-Here's a clean, professional `README.md` for your **local RAG-based chatbot project using open-source tools and Gradio UI**:
 
----
-
-```markdown
 # 🧠 Local RAG Chatbot with Gradio UI
 
 A fully offline, private, and open-source Retrieval-Augmented Generation (RAG) chatbot that answers questions based on your local PDF documents using:
@@ -29,14 +25,12 @@ A fully offline, private, and open-source Retrieval-Augmented Generation (RAG) c
 ## 📁 Folder Structure
 
 ```
-
-rag\_bot/
+rag_bot/
 ├── app.py                  # Main chatbot script
 ├── documents/              # Place your PDFs here
 ├── models/                 # Contains downloaded LLM (Mistral)
-└── faiss\_index/            # Automatically created vector index
-
-````
+└── faiss_index/            # Automatically created vector index
+```
 
 ---
 
@@ -46,7 +40,7 @@ Python 3.9+ and the following packages:
 
 ```bash
 pip install langchain faiss-cpu gradio transformers accelerate sentence-transformers unstructured pdfminer.six
-````
+```
 
 ---
 
@@ -106,10 +100,10 @@ Do **not** do this if loading untrusted or internet-downloaded indexes.
 
 ## 🧪 Future Improvements
 
-* ✅ Add multi-PDF upload via Gradio
-* 🧠 Add memory for multi-turn conversation
-* 🗂️ Metadata-based filtering (e.g., search within document titles)
-* ⚡ Use quantized LLMs for better performance on low-end machines
+- ✅ Add multi-PDF upload via Gradio
+- 🧠 Add memory for multi-turn conversation
+- 🗂️ Metadata-based filtering (e.g., search within document titles)
+- ⚡ Use quantized LLMs for better performance on low-end machines
 
 ---
 
@@ -121,14 +115,7 @@ MIT License – free for personal and commercial use.
 
 ## 🤝 Credits
 
-* [Mistralai](https://huggingface.co/mistralai) for Mistral-7B-Instruct
-* [LangChain](https://github.com/langchain-ai/langchain) for RAG pipelines
-* [Hugging Face](https://huggingface.co/) for LLM & embedding models
-* [Gradio](https://gradio.app) for UI
-
-```
-
----
-
-Would you like a `requirements.txt` or `Dockerfile` to go with it?
-```
+- [Mistralai](https://huggingface.co/mistralai) for Mistral-7B-Instruct
+- [LangChain](https://github.com/langchain-ai/langchain) for RAG pipelines
+- [Hugging Face](https://huggingface.co/) for LLM & embedding models
+- [Gradio](https://gradio.app) for UI
